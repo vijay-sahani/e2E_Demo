@@ -10,9 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.E2eDemo">
         <activity
+            android:name=".ChatDetailActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity
             android:name=".MainActivity"
-            android:label="e2E"
-            android:exported="false"/>
+            android:exported="false"
+            android:noHistory="true"
+            android:label="e2E" />
         <activity
             android:name=".SignUp"
             android:exported="false" />
